@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+   /* background-color: #fd2c2a;*/
+   transition: all 1s cubic-bezier(0.23, 1, 0.320, 1);
+   background-color: black;
+   color: white;
+}
+canvas{
+    pointer-events: none;
+}
+
+span.growing{
+    background-color: #fd2c2a;
+}
